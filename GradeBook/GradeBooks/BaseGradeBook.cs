@@ -76,7 +76,7 @@ namespace GradeBook.GradeBooks
             }
         }
 
-        public static BaseGradeBook Load(string name, bool IsWeighted)
+        public static BaseGradeBook Load(string name)
         {
             if (!File.Exists(name + ".gdbk"))
             {
